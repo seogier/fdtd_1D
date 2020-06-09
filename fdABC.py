@@ -7,7 +7,7 @@ from matplotlib.text import Text
 fig = plt.figure()
 ax = plt.axes(xlim=(0, 200), ylim=(-1, 1))
 
-plt.title('One-Dimensional Wave with Reflective BC')
+plt.title('One-Dimensional Wave with Absorbing BC')
 plt.xlabel('Space')
 plt.ylabel('Amplitude')
 
